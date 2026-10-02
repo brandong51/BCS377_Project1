@@ -1,0 +1,302 @@
+/*
+Name: Brandon Gaguancela
+Class: BCS 377
+Project 1 - Personal Portfolio
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	background-color: #eef1f4;
+	color: #222222;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 270px;
+	height: 100vh;
+	padding: 32px 24px;
+	overflow-y: auto;
+	background-color:#0a2342;
+	color: #ffffff
+}
+
+.sidebar h1 {
+	margin-top: 0;
+	margin-bottom: 8px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.sidebar p {
+	margin-top: 0;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ffffff;
+}
+
+.sidebar nav ul {
+	margin: 24px 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar nav a{
+	display: block;
+	padding: 10px 12px;
+	border-left: 4px solid transparent;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.sidebar nav a:hover,
+.sidebar nav a:focus {
+	border-left-color: #ffffff;
+	background-color: #173b63;
+}
+
+.sidebar nav a[aria-current="page"] {
+	background-color: #ffffff;
+	color: #0a2342;
+	font-weight: bold;
+}
+
+main {
+	min-height: 100vh;
+	margin-left: 270px;
+	padding: 40px;
+}
+
+main section {
+	max-width: 900px;
+	margin: 0 auto 30px;
+	padding: 30px;
+	border-left: 5px solid #0a2342;
+	border-radius: 6px;
+	background-color: #ffffff;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: bold;
+}
+
+main h2 {
+	margin-top: 0;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #d4d9df;
+	color: #0a2342;
+	font-size: 32px;
+}
+
+main h3 {
+	color: #173b63;
+	font-size: 22px;
+}
+
+main h4 {
+	color: #222222;
+	font-size: 18px;
+}
+
+main ul {
+	padding-left: 24px;
+}
+
+main li {
+	margin-bottom: 7px;
+}
+
+main a {
+	color: #075b9b;
+	font-weight: bold;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 3px;
+}
+
+main a:hover {
+	color: #0a2342;
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+	outline: 3px solid #ffbf47;
+	outline-offset: 3px;
+}
+
+#featured-work > p:last-child a,
+#call-to-action a,
+#resume-heading a {
+	display: inline-block;
+	margin: 5px 8px 5px 0;
+	padding: 10px 16px;
+	border: 2px solid #0a2342;
+	border-radius: 4px;
+	background-color: #0a2342;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#featured-work > p:last-child a:hover,
+#call-to-action a:hover,
+#resume-heading a:hover {
+	background-color: #ffffff;
+	color: #0a2342;
+}
+
+#resume-projects article {
+	margin-top: 24px;
+	padding-top: 16px;
+	border-top: 1px solid #d4d9df;
+}
+
+address {
+	font-style: normal;
+}
+
+form {
+	max-width: 650px;
+}
+
+form p {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 6px;
+	color: #0a2342;
+	font-weight: bold;
+}
+
+input,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #68737d;
+	border-radius: 4px;
+	background-color: #ffffff;
+	color: #222222;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 16px;
+}
+
+textarea {
+	resize: vertical;
+}
+
+button {
+	padding: 12px 20px;
+	border: 2px solid #0a2342;
+	border-radius: 4px;
+	background-color: #0a2342;
+	color: #ffffff;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #ffffff;
+	color: #0a2342;
+}
+
+footer {
+	margin-left: 270px;
+	padding: 20px;
+	background-color: #dce1e6;
+	color: #222222;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	.sidebar {
+		position: static;
+		width: 100%;
+		height: auto;
+		padding: 24px;
+	}
+	
+	.sidebar nav ul {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+	
+	.sidebar nav li {
+		margin: 0;
+	}
+	
+	.sidebar nav a {
+		border-left: none;
+		border-bottom: 3px solid transparent;
+	}
+	
+	.sidebar nav a:hover,
+	.sidebar nav a:focus {
+		border-left-color: transparent;
+		border-bottom-color: #ffffff;
+	}
+	
+	main {
+		margin-left: 0;
+		padding: 24px;
+	}
+	
+	main section {
+		padding: 24px;
+	}
+	
+	footer {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.sidebar nav ul {
+		display: block;
+	}
+	
+	.sidebar nav li {
+		margin-bottom: 8px;
+	}
+	
+	main {
+		padding: 14px;
+	}
+	
+	main section {
+		padding: 20px;
+	}
+	
+	main h2 {
+		padding: 27px;
+	}
+	
+	#call-to-action a {
+		display: block;
+		margin-right: 0;
+		text-align: center;
+	}
+}
+
+.projects-page .project-card ul li {
+	font-weight: normal;
+}

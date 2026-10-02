@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<!-- 
+Name: Brandon Gaguancela
+Class: BCS 377
+Project 1 - Personal Portfolio
+Due: Oct 12
+-->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Projects | Brandon Gaguancela's Portfolio</title>
+</head>
+<body>
+
+	<header class="sidebar">
+		<h1>Brandon Gaguancela's Portfolio</h1>
+			<p>Computer Programming and Information Systems Student</p>
+			
+			<nav aria-label="Main Navigation">
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About Me</a>
+					</li>
+					<li>
+						<a href="projects.html">My Projects</a>
+					</li>
+					<li>
+						<a href="resume.html">Resume</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact Me</a>
+					</li>
+				</ul>
+			</nav>
+	</header>
+	
+	<main class="projects-page">
+		<section class="projects-intro">
+			<h2>My Projects</h2>
+			<p>
+				This page showcases some of the projects I have worked on during my time as a Computer Programming and Information Systems student. 
+				Each project demonstrates my skills in various programming languages and technologies, web development, database management, data analysis, 
+				software development, and gives a glimpse in some of my interests what I want to work on the future. One of the projects that I will showcase 
+				wasn't all done by me. It was a group project that I worked on with my classmates and I am very proud of the work we accomplished together.
+			</p>
+
+			<nav class="project-links" aria-label="Project Sections">
+				<a href="#finished"> Finished Projects</a>
+				<a href="#in-progress"> In Progress Projects</a>
+				<a href="#future"> Future Projects</a>
+			</nav>	
+		</section>
+		
+		<section id="finished" class="finished-projects">
+			<h2>Finished Projects</h2>
+			<article class="project-card">
+				<h3>Project 1: D&amp;D Game</h3>
+				<p>
+					This was a collaborative group project with my fellow classmates in my Software Engineering class. 
+					My classmates Faraz, Saad, Jared, and I worked together on a D&D inspired game for the project. 
+					We used Java, JavaFX, CSS, FXML, and Firebase to create the game. We also used git and Github to 
+					track our progress and collaborate on the project. To give a little context. The user was able to 
+					choose a party, roll a dice to determine upgrades or downgrades from the stats that are already given 
+					by each character. The user was then able to choose their path and fight bosses and complete the quest. 
+				</p>	
+
+				<h4>My Contributions:</h4>
+					<ul>
+						<li>Built the user login and authentication system. </li>
+						<li>Managed user accounts, with their emails and usernames using Firebase/Firestore.</li>
+						<li>Implemented game slots per user, with the option to overwrite an existing save from the user.</li>
+						<li>Tested the game mechanics and fixed bugs, well everyone from the group all did this as well.</li>
+					</ul>	
+
+				<h4>Technologies Used:</h4>
+				<ul>
+					<li>Java</li>
+					<li>JavaFX</li>
+					<li>CSS</li>
+					<li>FXML</li>
+					<li>Firebase/Firestore</li>
+					<li>Git/GitHub</li>
+					<li>IntelliJ IDEA</li>
+				</ul>
+
+				<p class="project-status">Completed - Group Class Project</p>
+			</article>
+
+			<article class="project-card">
+				<h3>Project 2: MovieArchive</h3>
+				<p>
+					For anotehr class project, I create a movie archive website where you can 
+					write reviews for movies that you have watched and rate them. Also you can add movies to your 
+					watchlist and have an organized list of the movies that you have already watched. 
+				</p>
+
+				<h4>Project Features:</h4>
+				<ul>
+					<li>Movie search functionality using the OMDB API.</li>
+					<li>User authentication and account management.</li>
+					<li>Ability to write reviews and rate movies.</li>
+					<li>Watchlist feature to keep track of movies to watch.</li>
+					<li>A relational database connecting users, movies, watchlists, and reviews.</li>
+					<li>User-specific lists and reviews, input validations, and prepared SQL statements.</li>
+				</ul>
+
+				<h4>Technologies Used:</h4>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>PHP</li>
+					<li>MySQL</li>
+					<li>WAMP</li>
+				</ul>
+				<p class="project-status">Completed - Class Project</p>
+			</article>
+
+			<article class="project-card">
+				<h3>Project 3: Video Game Sales Analysis</h3>
+				<p>
+					This project was a menu-driven Perl program application that 
+					analyzed a dataset of video game sales. Users can view the 
+					top-selling games by year, platform, genre, and publisher through 
+					organized terminal reports. 
+				</p>
+
+				<h4>Project Features:</h4>
+				<ul>
+					<li>Loaded and processed a dataset of video game sales from CSV file.</li>
+					<li>Filtered and sorted records to compare sales performance.</li>
+					<li>Identified the highest-selling games based on various criteria.</li>
+					<li>Instead of a bland terminal interface, provided a more user-friendly experience with different colors from Term::ANSIColor.</li>
+				</ul>
+
+				<h4>Technologies Used:</h4>
+				<ul>
+					<li>Perl</li>
+					<li>CSV</li>
+					<li>Text::CSV</li>
+					<li>Term::Menus</li>
+					<li>Term::ANSIColor</li>
+				</ul>
+
+				<p class="project-status">Completed - Class Project</p>
+			</article>
+		</section>
+		
+		<section id="in-progress" class="project-group">	
+			<h2>In Progress Projects</h2>
+
+			<article class="project-card">
+				<h3>The Album Archive</h3>
+				<p>		
+					Right now I am working on a personal class project. In this project, I am 
+					showcasing my favorite albums and listing albums that I want to queue up next.
+					I am showing the album cover, the artist, the release, and the genre of the album. 
+					It is only a three-page website. There is a home page, a favorites pages, and future 
+					listens page. I am differentiating the favorites and the future listens page with 
+					different layouts of the page instead of both looking the same. 
+				</p>
+
+				<h4>Project Features:</h4>
+				<ul>
+					<li>Home page with a brief introduction and navigation to the other pages.</li>
+					<li>Favorites page with a list of favorite albums and their details.</li>
+					<li>Future listens page with a list of albums to listen to in the future.</li>
+					<li>Responsive design for different screen sizes.</li>
+				</ul>
+
+				<h4>Technologies Used:</h4>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>Visual Studio Code</li>
+				</ul>
+
+				<p class="project-status">In Progress - Personal Class Project</p>
+			</article>
+		</section>
+
+		<section id="future" class="project-group">
+			<h2>Future Projects</h2>
+			<article class="project-card">
+				<h3>Senior Project: CampusFix</h3>
+				<p>
+					For my senior project class, the group that I am a part of are creating a web application 
+					called CampusFix. This application will allow students, faculty, and staff to report and 
+					track campus maintenance issues. User will be able to submit maintenance requests, 
+					view the status of their requests, reports with locations, categories, and descriptons of the 
+					issues around campus. User will be also  able to add photos of the issues. 
+				</p>
+
+				<p>
+					<strong>My Planned Role:</strong>
+					My role in this project is to be the QA/Test Engineer. I am also responsible for documenting test cases 
+					and testing application features. I will of course be a developer. Everyone in the group will be a developer. 
+					I will be working on both the front-end and back-end of the application. 
+				</p>	
+
+				<h4>Planned Features:</h4>
+				<ul>
+					<li>User authentication and authorization.</li>
+					<li>Ticket tracking, prioritization, and technician assignments.</li>
+					<li>Communication line between the students, staff, and technicians.</li>
+					<li>An administrative panel for managing reports and users.</li>
+					<li>Campus equipment management.</li>
+				</ul>
+
+				<h4>Planned Technologies:</h4>
+				<ul>
+					<li>C#</li>
+					<li>Supabase</li>
+					<li>Git/GitHub</li>
+					<li>Visual Studio</li>
+					<li>Dockers</li>
+					<li>Svelte</li>
+				</ul>	
+				<p class="project-status">In Progress - Senior Project</p>
+			</article>
+
+			<article class="project-card">
+				<h3>MLB Hitting Performance Application</h3>
+				<p>
+					This is a personal project that I am planning to work on in the near future. 
+					The application will analyze MLB hitting performance data using traditonal 
+					statistics and Statcast metrics. I will be starting with the 2025 season of 
+					the MLB. The user will be able to compare hitters against each other and see 
+					see the differences in their performance.
+				</p>
+
+				<h4>Planned Features:</h4>
+				<ul>
+					<li>Data collection and preprocessing of MLB hitting performance data.</li>
+					<li>Statistical analysis and visualization of player performance metrics.</li>
+					<li>Comparison of players based on various performance metrics.</li>
+					<li>User-friendly interface for exploring player data and statistics.</li>
+				</ul>
+
+				<h4>Planned Technologies:</h4>
+				<ul>
+					<li>Python</li>
+					<li>Pandas</li>
+					<li>Excel</li>
+					<li>Power BI</li>
+					<li>SQL Server Management Studio</li>
+					<li>Git/GitHub</li>
+				</ul>
+
+				<p class="project-status">In Progress - Personal Project</p>
+			</article>
+
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2026 Brandon Gaguancela. All Rights Reserved.</p>
+	</footer>
+	
+</body>
+</html>
