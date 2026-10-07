@@ -136,7 +136,7 @@ The site will be mobile-friendly. The screen will adjust for smaller screens. I 
 
 ## 11. Will you use icons, images, or illustrations? Why?
 
-
+I will be using some icons. I will use a pencil icon in the contact page for when a visitor wants to write a question. I also show screenshots from the projects that I have worked on. 
 
 ## 12. What portfolio websites inspired your design?
 
@@ -146,19 +146,20 @@ Professor Basin shsowed examples of other student's portfolio
 
 ## 1. What interactive elements will your site include (navigation menus, buttons, forms)?
 
-
+There will be navigation links, there will links to project sections. Like I said before, there will three sections in the project page. It will be located near the top of the main content, during the projects intro. The links would send the user to the section, the complete, in-progress, and planned project sections.
 
 ## 2. Will your site include a contact form? How will it work?
 
-
+My site will include a contact form. It will include a link to my github profile, my linkedin, my email, and a contact form. This form will ask for the visitor's name, their email address, a subject field, and a text field where they can wrtie their questions. The form as of now doesn't send the actually questions. The visitors are able to use my email link to contact me. 
 
 ## 3. What JavaScript features will you implement?
 
-
+The JavaScript features that will be feature on the site will be feedback and validation features. JavaScript will check the name field, the email field, the subject field, and teh textfield. Checks if they properly filled and not just filled with spaces. After clicking on the button to ask a question. A message will appear stating that the feature is simply for demonstration and they can contact me by emailing me. 
 
 ## 4. How will users receive feedback from interactions?
 
-
+Users will receive feedback from the interactions in different ways. In the contact form, 
 
 ## 5. How does interactivity improve the user experience?
 
+Interactivity improves the user experience because it makes the website more than just text ona page. The interactivity helps the users navigate through the website. The user will be able to download my resume and the contact form also gives the user feedback when they fill out the form. Not only when they do not fill it out properly, but also when they fill out the form properly as well. 
