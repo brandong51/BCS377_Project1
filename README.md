@@ -42,14 +42,15 @@ I want to professional present my name as Brandon Gaguancela.
 
 ## 3. Who is the target audience (employers, clients, peers, etc.)?
 
-The target audience of this website is for my friends, classmates, and my peers. 
+The target audience of this website is for my friends, classmates, peers, and future employers.
 
 ## 4. What skills do you want to highlight?
 
-
+I want to hightlight skills in data collection, data cleaning, data validation, web design (PHP), and group collaboration. 
 
 ## 5. What projects or work will you showcase?
 
+I will showcase projects that I worked on during my time at Farmingdale State College. I was hoping to show more projects that show case data cleaning, data validation, but it's okay for now. I will showcase the group project in my Software Engineering class, the project from my Web Database Design class (BCS 350), and my project from my Perl class. I will also be showcasing the projects that I working on right now, which are my Senior Project project and my project from my BCS 130 class. Finally I will talk about projects that I am planning to work on in the near future. 
 
 
 ## 6. How will you describe yourself in a short professional bio?
@@ -59,21 +60,21 @@ The target audience of this website is for my friends, classmates, and my peers.
 
 ## 7. What pages will your site include (Home, About, Projects, Contact, etc.)?
 
-
+The site will include a Home page, an About Me page,Projects Page, a Resume page, and a Contact page. The home page will introduce the visitor on what the page is about. Then the about me will give a bit of a background of myself and my education. The projects page will showcase the projects that I have done, the ones that I am currently working on, and the one that I am planning to work on in the near future. 
 
 
 ## 8. What is your career goal or desired role?
 
-
+As of right now, my career goal is to become a Data Analyst. To be honest didn't really know what to pursue for a while But I took a class, Programming in SQL and I really enjoyed that class. I know that I have to do more to go on to pursue this role, but I am excited in working on more projects and getting experience in the field. 
 
 
 ## 9. What technologies or tools do you have experience with?
 
-
+I have experience with Github, Git, Intellij, Java, Javascript, SQL, PHP, HTML, CSS. 
 
 ## 10. What achievements or experiences are worth highlighting?
 
-
+Right now I don't really have many achievements that I believe are worth highlighting. The only one that I would like to highlight would be the D&D Game that I was part of. It was really the first group project that I was a part of. I am very proud of the project and what the group was able to accomplish. 
 
 
 ## 11. What call-to-action should visitors take (contact you, view projects, download resume)?
@@ -108,33 +109,40 @@ I will be using one font throughout the whole website. I chose Georgia because I
 ## 4. How will your design reflect your personality or field?
 
 
+
 ## 5. What layout will your homepage follow?
 
 I will have a sidebar on the left side of the website instead of traditional navgation bar on the very top of the page. 
 
 ## 6. How will you organize project sections visually?
 
+So the projects page will have three sections, split into finished projects that I have done over the last few years. It's not all of the projects that I have worked on, just ones that I want to showcase. Then there will be an in-progress section. Projects that I am working on currently at the moment. Finally, projects that I am planning on for the future. 
 
 ## 7. Will the site be mobile-friendly? How will you ensure responsiveness?
 
+The site will be mobile-friendly. The screen will adjust for smaller screens. I went with a side navigation bar instead a traditinoal navigation bar on top of the page. So for smaller screens, the sidebar will move to the top above the main content. The navigation links will of course adjust as well so we will of the links in frame. 
 
 ## 8. What visual hierarchy will guide visitors?
+
 
 
 ## 9. How will consistency be maintained across pages?
 
 
+
 ## 10. How will accessibility be considered (contrast, font size, readability)?
+
 
 
 ## 11. Will you use icons, images, or illustrations? Why?
 
 
+
 ## 12. What portfolio websites inspired your design?
 
+Professor Basin shsowed examples of other student's portfolio 
 
 ## PART 3: INTERACTIVITY (Answer ALL questions)
-
 
 ## 1. What interactive elements will your site include (navigation menus, buttons, forms)?
 
@@ -153,3 +161,4 @@ I will have a sidebar on the left side of the website instead of traditional nav
 
 
 ## 5. How does interactivity improve the user experience?
+
