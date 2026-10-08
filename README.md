@@ -38,7 +38,7 @@ I want to professional present my name as Brandon Gaguancela.
 
 ## 2. What is the purpose of your portfolio website?
 
-
+The purpose of this portfolio website is to introduce myself and not only showcase the projects that I worked on during my time at Farmingdale State College, but also what I learned in general during my time at the college. The users and the visitors of the website will see the projects that I worked on, my resume, and my contact information. I will continue to work on the website even after the end of the project. Updating and adding projects that I want to highlight and updating my resume.
 
 ## 3. Who is the target audience (employers, clients, peers, etc.)?
 
@@ -56,7 +56,7 @@ I will showcase projects that I worked on during my time at Farmingdale State Co
 ## 6. How will you describe yourself in a short professional bio?
 
 
-
+In a short professional bio, I will describe myself as a Computer Programming and Information Systems at Farmingdale State College. And during my time at the college, I have gained interest in pursue data analysis, SQL, database design, and even web development.
 
 ## 7. What pages will your site include (Home, About, Projects, Contact, etc.)?
 
@@ -140,7 +140,7 @@ I will be using some icons. I will use a pencil icon in the contact page for whe
 
 ## 12. What portfolio websites inspired your design?
 
-Professor Basin shsowed examples of other student's portfolio 
+Professor Basin shsowed examples of other student's portfolio. I saw the contact page on one of the examples and it inspired what I have on contact page. But to be honest I didn't really research other portfolio websites. I have seen them before, but I would say many inspired my design. Not to say that mine is particular unique. The only thing that was inspired by was from one of the examples that Professor Basin showed us in class like I said before. 
 
 ## PART 3: INTERACTIVITY (Answer ALL questions)
 
@@ -158,7 +158,7 @@ The JavaScript features that will be feature on the site will be feedback and va
 
 ## 4. How will users receive feedback from interactions?
 
-Users will receive feedback from the interactions in different ways. In the contact form, 
+Users will receive feedback from the interactions in different ways. In the contact form, if they user does not properly fill out the sections. Like for example, if they only type in spaces to fill out certain sections. The site will then let them know to input proper information for the sections. Then there is also hover and focus features on buttons and links. For example, in the navigation bar, the user can hover over the links and the link will highlight and light up a bit. Very similar to the buttons on the contact me webpage. 
 
 ## 5. How does interactivity improve the user experience?
 

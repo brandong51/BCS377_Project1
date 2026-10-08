@@ -8,10 +8,18 @@ Project 1 - Personal Portfolio
 	box-sizing: border-box;
 }
 
+/* Scroll smoothly when following links to sections */
 html {
 	scroll-behavior: smooth;
 }
 
+/*
+ this is where I set: 
+- the page background 
+- the text color
+- font
+- and the line spacing 
+*/
 body {
 	margin: 0;
 	background-color: #eef1f4;
@@ -21,6 +29,11 @@ body {
 	line-height: 1.6;
 }
 
+/* 
+this is the sidebar of the website. I chose to do a sidebar, 
+rather than a traditional navigation bar. 
+The left side bar will be seen on larger screens.
+ */
 .sidebar {
 	position: fixed;
 	top: 0;
@@ -46,6 +59,10 @@ body {
 	border-bottom: 1px solid #ffffff;
 }
 
+/* 
+The list markers are removed
+and the navigation is below the subtitle
+*/
 .sidebar nav ul {
 	margin: 24px 0 0;
 	padding: 0;
@@ -82,7 +99,6 @@ main section {
 	max-width: 900px;
 	margin: 0 auto 30px;
 	padding: 30px;
-	border-left: 5px solid #0a2342;
 	border-radius: 6px;
 	background-color: #ffffff;
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
