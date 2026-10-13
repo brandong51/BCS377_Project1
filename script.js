@@ -51,7 +51,7 @@ if (messageForm) {
         }
     });
 
-// This validates the form when teh visior clicks on the submit button.
+// This validates the form when the visior clicks on the submit button.
     messageFrom.addEventListener ("submit", async function (event) {
         event.preventDefault();
 
