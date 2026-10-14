@@ -181,6 +181,7 @@ The portfolio website uses HTML for page structure, CSS for styling and responsi
 
 ## Timeline and Milestones
 | Milestone | Status |
+|---|---|
 | Plan the design, content, and layout of the website | Completed |
 | Complete the HTML pages | Completed |
 | Add CSS styling and responsive layout of the website | Completed |
