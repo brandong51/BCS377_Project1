@@ -33,7 +33,13 @@ body {
 this is the sidebar of the website. I chose to do a sidebar, 
 rather than a traditional navigation bar. 
 The left side bar will be seen on larger screens.
- */
+anchor the sidebar to the upper-left corner of the viewpoint
+the width and the height are set. 
+then there are vertical and horizontal padding. 
+if the sidebar needs to scroll, it is allowed to. 
+the color of the side bar is set here as well, as well as the font color in the sidebar. 
+
+*/
 .sidebar {
 	position: fixed;
 	top: 0;
@@ -46,6 +52,7 @@ The left side bar will be seen on larger screens.
 	color: #ffffff
 }
 
+/* style the portfolio name inside the sidebar */
 .sidebar h1 {
 	margin-top: 0;
 	margin-bottom: 8px;
@@ -53,6 +60,7 @@ The left side bar will be seen on larger screens.
 	font-weight: bold;
 }
 
+/* the sidebar subtitle is separated from the navigation links with a white line*/
 .sidebar p {
 	margin-top: 0;
 	padding-bottom: 20px;
@@ -62,6 +70,7 @@ The left side bar will be seen on larger screens.
 /* 
 The list markers are removed
 and the navigation is below the subtitle
+A space is added above the list to separate it from the subtitle.
 */
 .sidebar nav ul {
 	margin: 24px 0 0;
@@ -69,6 +78,9 @@ and the navigation is below the subtitle
 	list-style: none;
 }
 
+/* 
+each of the navigation links are now a block so it's padding area is clickable
+*/
 .sidebar nav a{
 	display: block;
 	padding: 10px 12px;
@@ -77,6 +89,7 @@ and the navigation is below the subtitle
 	text-decoration: none;
 }
 
+/* the navigation links are highlighted when we hover over them with the mouse. Or when they are focused (when someone is using the tab key.) */
 .sidebar nav a:hover,
 .sidebar nav a:focus {
 	border-left-color: #ffffff;
@@ -89,12 +102,18 @@ and the navigation is below the subtitle
 	font-weight: bold;
 }
 
+/* 
+the main cotent will be to the right of the sidebar.
+the main area will be at the minimum as tall as the viewpoint.
+add space around the main content.
+*/
 main {
 	min-height: 100vh;
 	margin-left: 270px;
 	padding: 40px;
 }
 
+/* the main section will be in a white content card. */
 main section {
 	max-width: 900px;
 	margin: 0 auto 30px;
@@ -104,6 +123,7 @@ main section {
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
 
+/* headers 1-4 have a bold font weight. */
 h1,
 h2,
 h3,
@@ -111,6 +131,7 @@ h4 {
 	font-weight: bold;
 }
 
+/* header 2 in the main content will have a navy color font and a dividing line under it. */
 main h2 {
 	margin-top: 0;
 	padding-bottom: 10px;
@@ -129,14 +150,19 @@ main h4 {
 	font-size: 18px;
 }
 
+/*
+unordered lists will be indented.
+*/
 main ul {
 	padding-left: 24px;
 }
 
+/* a space is added below each of the list items, makes it easier to read. */
 main li {
 	margin-bottom: 7px;
 }
 
+/* links in the main content will appear blue, bold, and underlined */
 main a {
 	color: #075b9b;
 	font-weight: bold;
@@ -144,10 +170,17 @@ main a {
 	text-underline-offset: 3px;
 }
 
+/* the link will look darker and there will be a pointer over them when you hover the mouse over the link */
 main a:hover {
 	color: #0a2342;
 }
 
+
+/* 
+a gold outline is visible when you go through the contact form.
+also when you focus on the links.
+helps the users see exactly what they are interacting with.
+*/
 a:focus,
 button:focus,
 input:focus,
@@ -169,6 +202,7 @@ textarea:focus {
 	text-decoration: none;
 }
 
+/*reverse the button-style link colors on hover*/
 #featured-work > p:last-child a:hover,
 #call-to-action a:hover,
 #resume-heading a:hover {
@@ -182,6 +216,7 @@ textarea:focus {
 	border-top: 1px solid #d4d9df;
 }
 
+/* project links become vertical instead of horizontal */
 .project-links {
 	display: flex;
 	flex-direction: column;
@@ -189,6 +224,12 @@ textarea:focus {
 	gap: 10px;
 }
 
+/*
+ the screenshot are arranged in a responsive grid.
+Fits as many columns as possible
+each column has a minimum width of 220px and shares
+spaces are added between screenshots
+ */
 .project-gallery {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -196,10 +237,12 @@ textarea:focus {
 	margin: 20px 0;
 }
 
+/* the browser's default margins are removed around figure elements. */
 .project-gallery figure {
 	margin: 0;
 }
 
+/* screenshots fill their grid columns, but also keep their original proportions */
 .project-gallery img {
 	display: block;
 	width: 100%;
@@ -208,6 +251,7 @@ textarea:focus {
 	border-radius: 6px;
 }
 
+/* a small caption will be right under the screenshots */
 .project-gallery figcaption {
 	margin-top: 6px;
 	font-size: 0.9rem;
@@ -221,11 +265,16 @@ form {
 	max-width: 650px;
 }
 
+/* the cotents from the form will be stacked vertically */
 form p {
 	display: flex;
 	flex-direction: column;
 }
 
+/* 
+the form labels are bold
+also space added below the labels
+*/
 label {
 	margin-bottom: 6px;
 	color: #0a2342;
