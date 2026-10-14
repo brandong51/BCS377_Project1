@@ -189,6 +189,30 @@ textarea:focus {
 	gap: 10px;
 }
 
+.project-gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 16px;
+	margin: 20px 0;
+}
+
+.project-gallery figure {
+	margin: 0;
+}
+
+.project-gallery img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border: 1px solid #d4d9df;
+	border-radius: 6px;
+}
+
+.project-gallery figcaption {
+	margin-top: 6px;
+	font-size: 0.9rem;
+}
+
 address {
 	font-style: normal;
 }

@@ -3,19 +3,22 @@
 Name: Brandon Gaguancela
 Class: BCS 377
 Project 1 - Personal Portfolio
-Due: Oct 12
+Due: Oct 14
 -->
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
+	<!--loads the JavaScript code from script.js. Validates and submits the contact form.-->
 	<script src="script.js" defer></script>
 	<title>Contact Me | Brandon Gaguancela</title>
 </head>
 
 <body>
-
+	<!--
+	sidebar that is visible across of the pages on the website.
+	-->
 	<header class="sidebar">
 		<h1>Brandon Gaguancela's Portfolio</h1>
 		<p>Computer Programming and Information Systems Student</p>
@@ -54,6 +57,11 @@ Due: Oct 12
 			</p>
 		</section>
 		
+		<!--
+		links to my other professional profiles and email
+		- GitHub
+		- LinkedIn
+		-->
 		<section id="contact-info">
 			<h2>Professional Information</h2>
 		
@@ -82,13 +90,28 @@ Due: Oct 12
 				</p>
 			</address>
 		</section>
-		
+		<!--
+		A contact form that visitors can fill out to reach out to me. 
+		I am using Formspree to receive the forms via email. 
+		Visitor fills out:
+		- Name
+		- email
+		- subject
+		- message/question
+		-->
 		<section id="contact-form">
 			<h2>Questions:</h2>
 			
 			<form id="message-form" 
 				action="https://formspree.io/f/mnpjpzpp" 
 				method="post">
+				<!--
+				these are the fields that are collected
+				- visitor name
+				- email address
+				- subject
+				- question/message
+				-->
 				<p>
 					<label for="name">Full Name:</label>
 					<input type="text" id="name" name="name"
@@ -115,10 +138,14 @@ Due: Oct 12
 				
 				<button type="submit">Send Question &#9998 </button>
 			</form>
+			<!--
+			this is where the submission status messages come from in the script.js
+			the successful or unsuccessful messages.
+			-->
 			<p id="form-feedback" role="status"></p>
 		</section>
 	</main>
-	
+	<!--Copyright notice at the bottom of the page.-->
 	<footer>
 		<p>&copy; 2026 Brandon Gaguancela. All Rights Reserved.</p>
 	</footer>

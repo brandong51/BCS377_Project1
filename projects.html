@@ -3,7 +3,7 @@
 Name: Brandon Gaguancela
 Class: BCS 377
 Project 1 - Personal Portfolio
-Due: Oct 12
+Due: Oct 14
 -->
 <html lang="en">
 <head>
@@ -13,7 +13,7 @@ Due: Oct 12
 	<title>Projects | Brandon Gaguancela's Portfolio</title>
 </head>
 <body>
-
+	<!-- sidebar that is used across of the pages on the website. -->
 	<header class="sidebar">
 		<h1>Brandon Gaguancela's Portfolio</h1>
 			<p>Computer Programming and Information Systems Student</p>
@@ -40,6 +40,9 @@ Due: Oct 12
 	</header>
 	
 	<main class="projects-page">
+		<!--
+		intro to the page (projects page)
+		-->
 		<section class="projects-intro">
 			<h2>My Projects</h2>
 			<p>
@@ -48,7 +51,7 @@ Due: Oct 12
 				software development, and gives a glimpse in some of my interests what I want to work on the future. One of the projects that I will showcase 
 				wasn't all done by me. It was a group project that I worked on with my classmates and I am very proud of the work we accomplished together.
 			</p>
-
+			<!-- Links to different sections of the projects page. -->
 			<nav class="project-links" aria-label="Project Sections">
 				<a href="#finished"> Finished Projects</a>
 				<a href="#in-progress"> In Progress Projects</a>
@@ -60,12 +63,23 @@ Due: Oct 12
 			<h2>Finished Projects</h2>
 			<article class="project-card">
 				<h3>Project 1: D&amp;D Game</h3>
+
+				<div class="project-gallery">
+					<figure>
+						<img src="images/Screenshot 2025-05-11 101246.png" alt="Gameplay screen of the game">
+						<figcaption>Gameplay screen</figcaption>
+					</figure>	
+					<figure>
+						<img src="images/Screenshot 2025-04-10 201901.png" alt="Welcome Screen">
+						<figcaption>Welcome screen</figcaption>
+					</figure>	
+				</div>	
 				<p>
 					This was a collaborative group project with my fellow classmates in my Software Engineering class. 
 					My classmates Faraz, Saad, Jared, and I worked together on a D&D inspired game for the project. 
-					We used Java, JavaFX, CSS, FXML, and Firebase to create the game. We also used git and Github to 
-					track our progress and collaborate on the project. To give a little context. The user was able to 
-					choose a party, roll a dice to determine upgrades or downgrades from the stats that are already given 
+					We used Java, JavaFX, CSS, FXML, and Firebase to create the game. We also used Git and GitHub to 
+					track our progress and collaborate on the project. In the game, the user was able to choose the size of a party, 
+					choose member of the party, roll a die to determine upgrades or downgrades from the stats that are already given 
 					by each character. The user was then able to choose their path and fight bosses and complete the quest. 
 				</p>	
 
@@ -93,9 +107,20 @@ Due: Oct 12
 
 			<article class="project-card">
 				<h3>Project 2: MovieArchive</h3>
+				<div class="project-gallery">
+					<figure>
+						<img src="images/Screenshot 2025-12-15 103351.png" alt="Main Screen">
+						<figcaption>Main screen</figcaption>
+					</figure>	
+					<figure>
+						<img src="images/Screenshot 2025-12-15 110714.png" alt="Watched Movies screen">
+						<figcaption>Watched Movies screen</figcaption>
+					</figure>	
+				</div>	
+
 				<p>
-					For another class project, I create a movie archive website where you can 
-					write reviews for movies that you have watched and rate them. Also you can add movies to your 
+					For another class project, I created a movie archive website where you can 
+					write reviews for movies that you have watched and rate them. User can also add movies to your 
 					watchlist and have an organized list of the movies that you have already watched. 
 				</p>
 
@@ -123,8 +148,25 @@ Due: Oct 12
 
 			<article class="project-card">
 				<h3>Project 3: Video Game Sales Analysis</h3>
+
+				<div class="project-gallery">
+					<figure>
+						<img src="images/Screenshot 2026-10-09 193531.png" alt="Menu for the Perl Program">
+						<figcaption>Menu Screen</figcaption>
+					</figure>
+
+					<figure>
+						<img src="images/Screenshot 2026-10-09 193730.png" alt="Result from All video game sales records">
+						<figcaption>Result of All Video Game Sales Records</figcaption>
+					</figure>
+
+					<figure>
+						<img src="images/Screenshot 2026-10-09 193816.png" alt="Result of top world sales by year">
+						<figcaption>Result of Top World Sales by Year </figcaption>
+					</figure>
+				</div>	
 				<p>
-					This project was a menu-driven Perl program application that 
+					This project was a menu-driven Perl application that 
 					analyzed a dataset of video game sales. Users can view the 
 					top-selling games by year, platform, genre, and publisher through 
 					organized terminal reports. 
@@ -132,7 +174,7 @@ Due: Oct 12
 
 				<h4>Project Features:</h4>
 				<ul>
-					<li>Loaded and processed a dataset of video game sales from CSV file.</li>
+					<li>Loaded and processed a dataset of video game sales from a CSV file.</li>
 					<li>Filtered and sorted records to compare sales performance.</li>
 					<li>Identified the highest-selling games based on various criteria.</li>
 					<li>Instead of a bland terminal interface, provided a more user-friendly experience with different colors from Term::ANSIColor.</li>
@@ -156,13 +198,27 @@ Due: Oct 12
 
 			<article class="project-card">
 				<h3>The Album Archive</h3>
+				<div class="project-gallery">
+					<figure>
+						<img src="images/Screenshot 2026-10-09 200915.png" alt="Home Screen">
+						<figcaption>Home screen</figcaption>
+					</figure>
+					<figure>
+						<img src="images/Screenshot 2026-10-09 201022.png" alt="Favorite Albums Screen">
+						<figcaption>Favorite Albums screen</figcaption>
+					</figure>
+					<figure>
+						<img src="images/Screenshot 2026-10-09 201055.png" alt="Future Listens Screen">
+						<figcaption>Future Listens screen</figcaption>
+					</figure>
+				</div>	
 				<p>		
 					Right now I am working on a personal class project. In this project, I am 
 					showcasing my favorite albums and listing albums that I want to queue up next.
 					I am showing the album cover, the artist, the release, and the genre of the album. 
-					It is only a three-page website. There is a home page, a favorites pages, and future 
+					It is only a three-page website. There are three pages, a home, favorites, and future 
 					listens page. I am differentiating the favorites and the future listens page with 
-					different layouts of the page instead of both looking the same. 
+					different layouts of the page instead of both looking the exact same. 
 				</p>
 
 				<h4>Project Features:</h4>
@@ -193,7 +249,7 @@ Due: Oct 12
 					For my senior project class, the group that I am a part of are creating a web application 
 					called CampusFix. This application will allow students, faculty, and staff to report and 
 					track campus maintenance issues. User will be able to submit maintenance requests, 
-					view the status of their requests, reports with locations, categories, and descriptons of the 
+					view the status of their requests, reports with locations, categories, and descriptions of the 
 					issues around campus. User will be also  able to add photos of the issues. 
 				</p>
 
@@ -219,7 +275,7 @@ Due: Oct 12
 					<li>Supabase</li>
 					<li>Git/GitHub</li>
 					<li>Visual Studio</li>
-					<li>Dockers</li>
+					<li>Docker</li>
 					<li>Svelte</li>
 				</ul>	
 				<p class="project-status">In Progress - Senior Project</p>
@@ -229,9 +285,9 @@ Due: Oct 12
 				<h3>MLB Hitting Performance Application</h3>
 				<p>
 					This is a personal project that I am planning to work on in the near future. 
-					The application will analyze MLB hitting performance data using traditonal 
+					The application will analyze MLB hitting performance data using traditional 
 					statistics and Statcast metrics. I will be starting with the 2025 season of 
-					the MLB. The user will be able to compare hitters against each other and see 
+					the MLB. The user will be able to compare hitters against each other and 
 					see the differences in their performance.
 				</p>
 
@@ -253,7 +309,7 @@ Due: Oct 12
 					<li>Git/GitHub</li>
 				</ul>
 
-				<p class="project-status">In Progress - Personal Project</p>
+				<p class="project-status">Planned - Personal Project</p>
 			</article>
 
 		</section>

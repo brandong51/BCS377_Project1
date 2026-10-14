@@ -181,12 +181,11 @@ The portfolio website uses HTML for page structure, CSS for styling and responsi
 
 ## Timeline and Milestones
 | Milestone | Status |
-|---|---|
 | Plan the design, content, and layout of the website | Completed |
 | Complete the HTML pages | Completed |
 | Add CSS styling and responsive layout of the website | Completed |
 | Answer the questions from the memo | Completed |
-| Add Project Screenshots | Not completed |
-| Proofread all of the pages across the website | Not completed |
+| Add Project Screenshots | Completed |
+| Proofread all of the pages across the website | Completed |
 | Test the contact form and the connection with Formspree | Completed |
-|Publish it with GitHub Pages|
+|Publish it with GitHub Pages| Completed |

@@ -6,10 +6,10 @@ Project 1 - Personal Portfolio
 
 const messageForm = document.getElementById("message-form");
 // only runs the code if the form exists. 
-// Also, this code allows script.js to be used on other pages without errors.
+// Also, this code allows script.js to be used on other pages without any errors or issues.
 if (messageForm) {
 
-   //Finds eacch field in the form, so that JavaScript can validate them and provide feedback to the user.
+   //Finds each field in the form, so that JavaScript can validate them and provide feedback to the user.
 
     const nameField = document.getElementById("name");
     const emailField = document.getElementById("email");
@@ -19,7 +19,7 @@ if (messageForm) {
     const submitButton = messageForm.querySelector('button[type="submit"]');
 
     // Creates an array and stores the text fields in it. This allows us to loop through the fields and validate them all at once.
-    // The email field is included because it is checked separately by browser. 
+    // The email field isn't included with the text fields because it is being validated separately by browser. 
     const textFields = [nameField, subjectField, questionField];
     let isSending = false;
 
@@ -34,10 +34,12 @@ if (messageForm) {
         }
     }
 
+    // validates each of the text fields as the visitor types. 
     textFields.forEach(function(field) {
         field.addEventListener("input", function () {
             validateTextField(field);
 
+            // clears the feeback message if the visitor 
             if(isSending) {
                 feedback.textContent = "";
             }
@@ -51,8 +53,8 @@ if (messageForm) {
         }
     });
 
-// This validates the form when the visior clicks on the submit button.
-    messageFrom.addEventListener ("submit", async function (event) {
+// This validates the form and also validates the fields before submitting to form
+    messageForm.addEventListener ("submit", async function (event) {
         event.preventDefault();
 
         // This doesn't allow another submission to sent, while one is already being sent.
@@ -62,13 +64,13 @@ if (messageForm) {
 
 
         textFields.forEach(validateTextField);
-
+        // stops, only if the browser finds a field that is invalid. 
         if (!messageForm.reportValidity()) {
             return;
         }
 
         // this is where we collect the form fields.
-        // Also remember the visitor's name.
+        // Also remember the visitor's name for the response.
         const formData = new FormData(messageForm);
         const visitorName = nameField.value.trim();
         const originalButtonText = submitButton.textContent;
@@ -83,7 +85,7 @@ if (messageForm) {
 
         try {
             // this sends the fields to Formspree.
-            const response = await fetch(messageForm.ariaDescription, {
+            const response = await fetch(messageForm.action, {
                 method: "POST",
                 body: formData,
                 headers: {
@@ -92,9 +94,11 @@ if (messageForm) {
             });
 
             if (response.ok) {
-                // this shows the successfully submission when Formspree accepts the submission.
+                // this shows the successfully submission.
+                // gives you a message after it is submitted,
+                // either unsuccessful or successful
                 feedback.textContent = 
-                "Thank you, " + vistorName + "! " + 
+                "Thank you, " + visitorName + "! " + 
                 "Your question was submitted successfully and I will get back to you as soon as possible."
             } else {
                 feedback.textContent = 
